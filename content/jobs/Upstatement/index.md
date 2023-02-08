@@ -1,12 +1,12 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2016-12-21'
+title: 'Masters Degree'
+company: 'Universität Paderborn'
+location: 'Paderborn, Germany'
+range: '2020 - Present'
+url: 'https://www.uni-paderborn.de/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Currently in fifth semester doing thesis.
+- Majoring in Data Science and Machine Learning with 2,7 GPA.
+- Completed courses in Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation, Knowledge Graphs and Software Engineering.

@@ -1,15 +1,14 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Knowledge Graph Fusion'
+cover: './KGFusion.png'
+github: 'https://github.com/Sowmya-95/FinalMaster'
+#external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Java
+  - DEER framework
+  - Eclipse
+  - GitHub
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+[Log map ontology matching system](https://github.com/ernestojimenezruiz/logmap-matcher) to find the mapping between different classes and properties in the Knowledge bases, which was then integrated with other subgroups using [DEER framework](https://en.cs.uni-paderborn.de/de/ds/news-single/deer-rdf-data-extraction-and-enrichment-framework), an RDF data extraction and enrichment framework, to fuse multiple knowledge graphs(KGs) into different KGs with common data.

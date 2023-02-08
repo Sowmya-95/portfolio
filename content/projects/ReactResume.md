@@ -1,12 +1,14 @@
 ---
-date: '2016-08-01'
-title: 'React Profile'
-github: 'https://github.com/bchiang7/react-profile'
-external: 'https://bchiang7.github.io/react-profile/'
+date: '2022-12-25'
+title: 'Product Website'
+github: 'https://github.com/chintal31/minddev'
+external: 'https://chintal31.github.io/minddev/'
 tech:
-  - React
+  - Javascript
   - CSS
+  - Bootstrap
+  - VScode
 showInProjects: true
 ---
 
-Online version of my 2016 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.
+Collobarated for developing a website using Bootstrap framework in VScode.

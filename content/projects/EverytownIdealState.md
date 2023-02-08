@@ -1,13 +1,16 @@
 ---
-date: '2022-01-20'
-title: 'Everytown Gun Law Rankings'
+date: '2022-10-20'
+title: 'React Basics'
 github: ''
-external: 'https://everytownresearch.org/rankings/'
+external: 'https://coursera.org/verify/AZYR4FUF4ATB'
 tech:
-  - WordPress
-  - Timber
-  - PHP
-  - Airtable API
-company: 'Upstatement'
-showInProjects: false
+  - React
+  - Jsx
+  - React.js
+  -	HTML, CSS and JavaScript 
+  - VSCode
+company: 'Coursera'
+showInProjects: true
 ---
+
+React is a powerful JavaScript library that used to build user interfaces for web and mobile applications (apps). In this course, explored the fundamental concepts that underpin the React library and learn the basic skills required to build a simple, fast, and scalable app.

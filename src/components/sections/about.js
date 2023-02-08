@@ -27,6 +27,7 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
+    color: var(--green);
 
     li {
       position: relative;
@@ -125,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'JavaScript', 'CSS3', 'HTML5', 'NoSQL', 'TesnsorFlow', 'React', 'Pandas', 'Numpy', 'Java',];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,31 +136,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Sowmya Kamath Ramesh. I received my Bachelor of Engineering in Computer Science(2012–2016) from the&nbsp;
+              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <a href="/Degreecertificate.pdf" target="_blank" rel="noopener noreferrer">2.3 GPA</a>.
+
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today,{' '}
+              I am in fifth semester, pursuing master thesis at the <a href="https://www.uni-paderborn.de/" target="_blank" rel="noreferrer">
+                Universität Paderborn. &nbsp;
+              </a>
+              My interest in data science started when I first learnt that our brain can be mimcked just using data. Thereafter my quest begin to learn about
+              machine learning and Deep learning.
+
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <a href="/new_transcriptrecord.pdf" target="_blank" rel="noopener noreferrer">2.7 GPA</a>.
             </p>
+
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>

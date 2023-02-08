@@ -1,15 +1,16 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Computational Argumentation'
+cover: './nlp.png'
+github: 'https://github.com/Sowmya-95/Computational-Argumentation'
+#external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Python
+  - JupyterNotebook
+  - VScode
+  - Numpy
+  - Pandas
+  - Classification Models
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+AI models for argument acquisition, mining, assessment and generation for natural language processing. 

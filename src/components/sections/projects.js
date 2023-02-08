@@ -228,16 +228,7 @@ const Projects = () => {
                   <Icon name="GitHub" />
                 </a>
               )}
-              {external && (
-                <a
-                  href={external}
-                  aria-label="External Link"
-                  className="external"
-                  target="_blank"
-                  rel="noreferrer">
-                  <Icon name="External" />
-                </a>
-              )}
+              
             </div>
           </div>
 
@@ -265,13 +256,12 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Certifications</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      
 
-      <ul className="projects-grid">
+      <div>
+        <ul className="projects-grid">
         {prefersReducedMotion ? (
           <>
             {projectsToShow &&
@@ -301,6 +291,7 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
+      </div>
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}

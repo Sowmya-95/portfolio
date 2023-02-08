@@ -1,40 +1,40 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'sowmyakamathr95@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Sowmya-95',
     },
-    {
+   /* {
       name: 'Instagram',
       url: 'https://www.instagram.com/bchiang7',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/bchiang7',
-    },
+    },*/
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/sowmyakamath',
     },
-    {
+    /*{
       name: 'Codepen',
       url: 'https://codepen.io/bchiang7',
-    },
+    }*/,
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: 'About me',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Education',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
