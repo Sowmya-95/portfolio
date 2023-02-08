@@ -17,6 +17,8 @@ jobs:
           git config --global user.name "sowmya"
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          node-version: 18.0.0
       - name: Install dependencies
         run: |
           yarn
