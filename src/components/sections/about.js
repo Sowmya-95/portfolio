@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import { Link } from "gatsby"
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -137,7 +138,7 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Sowmya Kamath Ramesh. I received my Bachelor of Engineering in Computer Science(2012–2016) from the&nbsp;
-              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <a href="/Degreecertificate.pdf" target="_blank" rel="noopener noreferrer">2.3 GPA</a>.
+              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <Link to="/Degreecertificate.pdf">2.3 GPA</Link>.
 
             </p>
 
