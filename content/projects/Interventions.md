@@ -1,14 +1,14 @@
 ---
-date: '2017-08-01'
-title: 'Interventions'
+date: '2023-02-20'
+title: 'Power BI'
 github: ''
-external: 'https://interventions.design/'
+external: 'https://coursera.org/verify/SHN46DJSUSRQ'
 tech:
-  - Jekyll
-  - SCSS
-  - JS
-company: 'Scout'
+  - Power BI 
+  - Modeling Data and Report Visualizations
+  - Reports
+company: 'Coursera'
 showInProjects: true
 ---
 
-Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.
+Conceptual understanding of the Power BI desktop application and the Power BI service. Explore the Power BI interface while learning how to manage pages and understand the basics of visualizations. Hands-on experiences to discover how to import, connect, clean, transform and model their own data in the Power BI desktop application. Investigate reports, learn about workspaces, and practice viewing, creating, and publishing reports to the Power BI service. Finally, the creation and utilization of dashboards.
