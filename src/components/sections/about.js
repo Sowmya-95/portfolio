@@ -138,7 +138,7 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Sowmya Kamath Ramesh. I received my Bachelor of Engineering in Computer Science(2012–2016) from the&nbsp;
-              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <Link to="/Degreecertificate.pdf">2.3 GPA</Link>.
+              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <Link to="/Degreecertificate.pdf"  partiallyActive={true}>2.3 GPA</Link>.
 
             </p>
 
@@ -153,7 +153,7 @@ const About = () => {
             </p>
 
             <p>
-              Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <a href="/new_transcriptrecord.pdf" target="_blank" rel="noopener noreferrer">2.7 GPA</a>.
+              Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <Link to="/new_transcriptrecord.pdf"  partiallyActive={true}>2.7 GPA</Link>.
             </p>
 
 
