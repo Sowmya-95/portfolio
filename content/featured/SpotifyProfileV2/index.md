@@ -1,16 +1,18 @@
 ---
 date: '3'
-title: 'Automatic fault detection'
-cover: './dsai.png'
-github: 'https://github.com/Sowmya-95/DSIA'
-#external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Anonymization in Legal Documents'
+cover: './thesisnlp.png'
+# github: 'https://github.com/Sowmya-95/DSIA'
+external: 'https://inception-project.github.io/'
+# cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
+  - NLP
   - Python
   - JupyterNoteBook
-  - VSCode
-  - Matlibplot
+  - GoogleColab
+  - PyTorch
+  - Numpy
+  - Pandas
 ---
 
-Use case understanding and Planning.
-Data Exploration, preprocessing and feature engineering using K-means clustering, PCA and other  libraries. Models like K-nearest neighbor classifier, support vector machine were used as ML architectures and data Engineering.
+Leveraging [Hugging Face](https://huggingface.co/)'s NLP technologies, we're innovating privacy solutions for Hindi legal documents through text anonymization. Our approach employs advanced machine learning models to detect and redact personal information, ensuring compliance and confidentiality. Utilizing the [INCEpTION tool](https://inception-project.github.io/), we facilitate precise text annotation, creating tailored datasets that capture the intricacies of legal terminology and Hindi linguistics. This project represents a pivotal step towards automating legal document processing, safeguarding privacy, and optimizing legal workflows.

@@ -127,7 +127,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'JavaScript', 'CSS3', 'HTML5', 'NoSQL', 'TesnsorFlow', 'React', 'Pandas', 'Numpy', 'Java',];
+  const skills = ['JavaScript', 'Python', 'CSS3', , 'Pandas', 'HTML5', 'TesnsorFlow', 'Vue', 'SQL', 'TailwindCSS', 'Numpy', 'Angular', 'PyTorch', 'React', 'Hugging Face', 'Typescript', 'PocketBase'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,9 +136,9 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
+            {/* <p>
               Hello! My name is Sowmya Kamath Ramesh. I received my Bachelor of Engineering in Computer Science(2012–2016) from the&nbsp;
-              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <Link to="/Degreecertificate.pdf"  partiallyActive={true}>2.3 GPA</Link>.
+              <a href="https://nieit.ac.in/" target="_blank" rel="noreferrer"> National Institute of Engineering Institute of Technology, India</a> with an <Link to="/Degreecertificate.pdf">2.3 GPA</Link>.
 
             </p>
 
@@ -153,9 +153,15 @@ const About = () => {
             </p>
 
             <p>
-              Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <Link to="/new_transcriptrecord.pdf"  partiallyActive={true}>2.7 GPA</Link>.
-            </p>
+              Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <Link to="/new_transcriptrecord.pdf">2.7 GPA</Link>.
+            </p> */}
+            <p>🎓 <b>Graduation Alert!</b>, soon-to-be Master of Machine Learning, Deep Learning, and NLP wizardry from <a href="https://www.uni-paderborn.de/" target="_blank" rel="noreferrer">
+              Universität Paderborn
+            </a>, diving deep into the realms of AI with a passion for uncovering the secrets of language and cognition. By day, I unravel the mysteries of neural networks; by night, I transform visions into reality as a frontend developer—a role I first explored and loved at a <a href="https://jobooking.de/" target="_blank" rel="noreferrer">startup</a>, marking my debut in the tech scene.</p>
 
+            <p>🚀 <b>Tech Enthusiast & Code Whisperer</b>: My journey through academia and the startup world has equipped me with a unique blend of skills, from teaching machines to understand human language to crafting beautiful, user-friendly interfaces. I thrive on the thrill of solving complex problems, whether they're about analyzing vast datasets or ensuring a seamless user experience.</p>
+
+            <p>💡<b> Looking Forward</b>: As I stand on the brink of completing my master's degree, I'm eager to fuse my knowledge of AI with my frontend development prowess, tackling new challenges and pushing the boundaries of what's possible. I'm equally passionate about both fields, dreaming big and ready to make an impact where technology meets human creativity.</p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>

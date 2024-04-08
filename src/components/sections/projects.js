@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               external
+              instagram
             }
             html
           }
@@ -213,7 +214,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech, instagram } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -228,7 +229,11 @@ const Projects = () => {
                   <Icon name="GitHub" />
                 </a>
               )}
-              
+              {instagram && (
+                <a href={instagram} aria-label="Instagram Link" target="_blank" rel="noreferrer">
+                  <Icon name="Instagram" />
+                </a>
+              )}
             </div>
           </div>
 
@@ -256,12 +261,15 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Certifications</h2>
+      <h2 ref={revealTitle}>Notable Works and Certifications</h2>
 
-      
 
-      <div>
-        <ul className="projects-grid">
+      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+        view the archive
+      </Link>
+
+      {/* <div> */}
+      <ul className="projects-grid">
         {prefersReducedMotion ? (
           <>
             {projectsToShow &&
@@ -291,7 +299,7 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-      </div>
+      {/* </div> */}
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}

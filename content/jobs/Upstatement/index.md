@@ -1,12 +1,13 @@
 ---
-date: '2016-12-21'
-title: 'Masters Degree'
-company: 'Universität Paderborn'
+date: '2023-02-01'
+title: 'Volunteer as Web Developer'
+company: 'Comfort-AR'
 location: 'Paderborn, Germany'
-range: '2020 - Present'
-url: 'https://www.uni-paderborn.de/'
+range: '2023 - Present'
+url: 'https://comfort-ar.de/index.html'
 ---
 
-- Currently in fifth semester doing thesis.
-- Majoring in Data Science and Machine Learning with 2,7 GPA.
-- Completed courses in Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation, Knowledge Graphs and Software Engineering.
+- Landing Page Development: Designed and implemented the landing page for GadgetLend at Comfort AR, utilizing Bootstrap for a seamless user experience.
+- Feedback Form Integration: Integrated a feedback form using PHP on the landing page to facilitate user communication and enhance service quality.
+- Marketing Banners: Created compelling marketing banners to drive engagement and attract users to GadgetLend.
+- Website Design: Crafted aesthetically pleasing and functional designs for various pages of the GadgetLend website, ensuring consistency and brand alignment.

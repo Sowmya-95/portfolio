@@ -1,12 +1,15 @@
 ---
-date: '2012-06-01'
-title: 'Bachelor of Engineering'
-company: 'NIEIT'
-location: 'Mysore, India'
-range: '2012 - 2016'
-url: 'https://nieit.ac.in/'
+date: '2022-05-01'
+title: 'Junior Frontend Web-Entwicklerin'
+company: 'JoBooking'
+location: 'Bielefeld'
+range: '2022 - 2023'
+url: 'https://jobooking.de/'
 ---
 
-- I achieved bachelors with an 2.3 GPA.
-- Built a web application for RFID card for campus as bachelors final year project.
+- Dashboard page: Developed the dashboard page for better user-interface experience.
+- Swiper Playlist & Booking Cards: Implemented dynamic swiper playlists and booking cards, elevating the user interface with smooth, intuitive interactions.
+- Clean Code Ethos: Adhered to principles of clean code and best practices, ensuring high readability, maintainability, and scalable structure.
+- Structured Development: Emphasized a structured approach to development, from planning to execution, to foster a robust and efficient codebase.
+- Experienced in Agile Environments: Thrived in Agile settings, specifically employing the Kanban methodology to optimize team efficiency and project management.
 

@@ -60,18 +60,19 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>🌈 Hey There! I am</h1>;
   const two = <h2 className="big-heading">Sowmya Kamath Ramesh.</h2>;
-  const three = <h3 className="big-heading">wannabe "Data Storyteller".</h3>;
+  const three = <h3 className="big-heading">Wannabe "AI Alchemist & Full Stack Engineer".</h3>;
   const four = (
     <>
       <p>
-        I’m a graduate student pursuing major in Data Science at{' '}
+        {/* I’m a graduate student pursuing major in Data Science at{' '}
 
         <a href="https://www.uni-paderborn.de/" target="_blank" rel="noreferrer">
           Universität Paderborn. &nbsp;
-        </a>
-        Machine learning and Deeplearning enthusiast, who wants to translate business problems into solvable analytics.
+        </a> */}
+        <br></br>
+        My mission? To explore every nook and cranny of AI's potential, and the art of front-end wizardry.
 
       </p>
     </>
