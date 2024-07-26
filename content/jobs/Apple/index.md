@@ -3,7 +3,7 @@ date: '2022-05-01'
 title: 'Junior Frontend Web-Entwicklerin'
 company: 'JoBooking'
 location: 'Bielefeld'
-range: '2022 - 2023'
+range: '04.2023 - 12.2023'
 url: 'https://jobooking.de/'
 ---
 

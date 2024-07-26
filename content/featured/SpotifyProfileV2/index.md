@@ -2,7 +2,7 @@
 date: '3'
 title: 'Anonymization in Legal Documents'
 cover: './thesisnlp.png'
-# github: 'https://github.com/Sowmya-95/DSIA'
+github: 'https://github.com/Sowmya-95/masterThesis'
 external: 'https://inception-project.github.io/'
 # cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
