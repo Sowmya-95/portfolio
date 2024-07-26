@@ -127,7 +127,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'Python', 'CSS3', , 'Pandas', 'HTML5', 'TesnsorFlow', 'Vue', 'SQL', 'TailwindCSS', 'Numpy', 'Angular', 'PyTorch', 'React', 'Hugging Face', 'Typescript', 'PocketBase'];
+  const skills = ['JavaScript', 'Python', 'CSS3', , 'Pandas', 'HTML5', 'TesnsorFlow', 'Vue', 'SQL', 'TailwindCSS', 'Numpy', 'Angular', 'PyTorch', 'React', 'Hugging Face', 'Typescript', 'PocketBase', 'PHP', 'LangChain'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -155,7 +155,7 @@ const About = () => {
             <p>
               Completed courses on Machine learning, Data Science in Physics and Engineering, Data Science in Industrial applications, Planning and Heuristic search, Computational Argumentation and Knowledge Graphs and Software Engineering with <Link to="/new_transcriptrecord.pdf">2.7 GPA</Link>.
             </p> */}
-            <p>🎓 <b>Graduation Alert!</b>, soon-to-be Master of Machine Learning, Deep Learning, and NLP wizardry from <a href="https://www.uni-paderborn.de/" target="_blank" rel="noreferrer">
+            <p>🎓 <b>Graduation Alert!</b>, Master of Machine Learning, Deep Learning, and NLP wizardry from <a href="https://www.uni-paderborn.de/" target="_blank" rel="noreferrer">
               Universität Paderborn
             </a>, diving deep into the realms of AI with a passion for uncovering the secrets of language and cognition. By day, I unravel the mysteries of neural networks; by night, I transform visions into reality as a frontend developer—a role I first explored and loved at a <a href="https://jobooking.de/" target="_blank" rel="noreferrer">startup</a>, marking my debut in the tech scene.</p>
 
