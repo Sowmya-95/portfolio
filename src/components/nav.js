@@ -172,11 +172,11 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  // const ResumeLink = (
-  //   <Link to='/resume.pdf' className="resume-button">
-  //     Resume
-  //   </Link>
-  // );
+  const ResumeLink = (
+    <Link to='/resume.pdf' className="resume-button">
+      Resume
+    </Link>
+  );
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
@@ -185,7 +185,7 @@ const Nav = ({ isHome }) => {
           <>
             {Logo}
 
-            {/* <StyledLinks>
+            <StyledLinks>
               <ol>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
@@ -195,7 +195,7 @@ const Nav = ({ isHome }) => {
                   ))}
               </ol>
               <div>{ResumeLink}</div>
-            </StyledLinks> */}
+            </StyledLinks>
 
             <Menu />
           </>
@@ -224,7 +224,7 @@ const Nav = ({ isHome }) => {
                 </TransitionGroup>
               </ol>
 
-              {/* <TransitionGroup component={null}>
+              <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
@@ -232,7 +232,7 @@ const Nav = ({ isHome }) => {
                     </div>
                   </CSSTransition>
                 )}
-              </TransitionGroup> */}
+              </TransitionGroup>
             </StyledLinks>
 
             <TransitionGroup component={null}>
