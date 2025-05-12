@@ -2,7 +2,7 @@
 date: '2025-04-05'
 title: 'FastAPI Fullstack Project'
 github: 'https://github.com/Sowmya-95/pythonAPIDev'
-external: ''
+# external: ''
 tech:
    - FastAPI
    - PostgreSQL

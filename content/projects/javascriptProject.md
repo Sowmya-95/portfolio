@@ -2,7 +2,7 @@
 date: '2025-04-05'
 title: 'JavaScript Full Course'
 github: 'https://github.com/Sowmya-95/javascript-amazon-website'
-external: ''
+# external: ''
 tech:
   - JavaScript (ES6+)
   - DOM Manipulation

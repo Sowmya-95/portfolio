@@ -2,7 +2,7 @@
 date: '2025-05-05'
 title: 'ReactJs (V19)'
 github: 'https://github.com/Sowmya-95/React'
-external: ''
+# external: ''
 tech:
   - React(v19)
   - HuggingFace LLMs
