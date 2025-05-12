@@ -5,8 +5,6 @@ github: ''
 external: 'https://coursera.org/verify/AZYR4FUF4ATB'
 tech:
   - React
-  - Jsx
-  - React.js
   -	HTML, CSS and JavaScript 
   - VSCode
 company: 'Coursera'

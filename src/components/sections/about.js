@@ -127,7 +127,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'Python', 'CSS3', , 'Pandas', 'HTML5', 'TesnsorFlow', 'Vue', 'SQL', 'TailwindCSS', 'Numpy', 'Angular', 'PyTorch', 'React', 'Hugging Face', 'Typescript', 'PocketBase', 'PHP', 'LangChain'];
+  const skills = [
+    'JavaScript', 'TypeScript', 'Python', 'HTML5', 'CSS3', 'TailwindCSS',
+    'React (v19)', 'Vue.js (v3)', 'Angular', 'Next.js', 'PHP',
+    'Flask', 'FastAPI', 'Express.js (basic)', 'LangChain', 'LangChain/Graph', 'RESTful APIs', 'JSON',
+    'SQL', 'PostgreSQL', 'SQLAlchemy', 'Drizzle', 'PocketBase',
+    'Docker', 'CI/CD (GitLab, GitHub)', 'Vite', 'Webpack (Next.js)', 'Bun', 'Node.js (basic)',
+    'Numpy', 'Pandas', 'PyTorch', 'TensorFlow', 'Hugging Face',
+    'VS Code', 'Google Colab',
+    'Figma', 'Jira',
+    'Linux', 'Windows'
+  ];
+
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

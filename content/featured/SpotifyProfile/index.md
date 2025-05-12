@@ -1,17 +1,16 @@
 ---
 date: '1'
-title: 'GadgetLend'
-cover: './gadgetlend.png'
-# github: 'https://comfort-ar.de/index.html'
-external: 'https://comfort-ar.de/index.html'
-instagram: 'https://www.instagram.com/gadgetlend/'
+title: 'Password Vault'
+cover: './password-vault.png'
+github: 'https://github.com/Sowmya-95/password-vault'
+# external: 'https://www.gadgetlend.de/'
+# instagram: 'https://www.instagram.com/gadgetlend/'
 tech:
-  - Angular
-  - PHP
-  - CSS
-  - Javascript
-  - Adobe Express
-  - Canva
+  - Next.js App Router
+  - Drizzle ORM
+  - PostgreSQL
+  - bcrypt, AES encryption
+  - ShadCN UI
 ---
 
-As a volunteer web developer at [GadgetLend](https://comfort-ar.de/services.html), I leverage my expertise to refine the application's CSS, ensuring a visually appealing and consistent user interface. I design and implement engaging marketing banners that captivate the target audience, contributing to the app's promotional strategy. Additionally, I develop an intuitive feedback form, streamlining user communication and facilitating the collection of valuable insights to drive continuous improvement.
+Password Vault is a secure web application that allows users to store, manage, and view sensitive credentials—like logins, cards, notes, and personal info—all in one place. It features dynamic, category-based forms and encrypts every piece of sensitive data, including metadata. Each credential is strictly user-specific and securely organized by category for both safety and ease of access.

@@ -2,7 +2,7 @@
 date: '2024-02-01'
 title: 'GadgetLend: Banners and feedbackform'
 github: ''
-external: 'https://comfort-ar.de/services.html'
+external: 'https://www.gadgetlend.de'
 instagram: 'https://www.instagram.com/gadgetlend/'
 tech:
   - AdobeExpress

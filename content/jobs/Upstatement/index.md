@@ -3,7 +3,7 @@ date: '2023-02-01'
 title: 'Volunteer Co-founder and Web Developer'
 company: 'GadgetLend'
 location: 'Paderborn, Germany'
-range: '02.2024 - Present'
+range: '02.2024 - 05.2024'
 url: 'https://comfort-ar.de/index.html'
 ---
 
