@@ -26,3 +26,5 @@ jobs:
           yarn
       - name: Deploy
         run: npm run deploy:ci
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
