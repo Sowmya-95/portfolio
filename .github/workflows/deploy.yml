@@ -14,7 +14,7 @@ jobs:
       - name: GitHub Config
         run: |
           git config --global user.email "sowmyakamathr95@gmail.com"
-          git config --global user.name "sowmya"
+          git config --global user.name "Sowmya-95"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Use Node.js
